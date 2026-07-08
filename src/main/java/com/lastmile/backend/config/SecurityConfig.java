@@ -26,7 +26,6 @@ import java.util.List;
 @EnableMethodSecurity
 public class SecurityConfig {
 
-```
 private final JwtAuthFilter jwtAuthFilter;
 private final UserDetailsService userDetailsService;
 
@@ -111,6 +110,5 @@ public SecurityFilterChain securityFilterChain(HttpSecurity http)
 
     return http.build();
 }
-```
 
 }
